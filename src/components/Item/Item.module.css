@@ -1,0 +1,7 @@
+.item {
+    font-style: italic;
+}
+
+.done {
+    text-decoration: line-through;
+}

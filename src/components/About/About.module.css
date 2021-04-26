@@ -1,0 +1,113 @@
+/* .content{
+	display: none;
+}  */
+
+* {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card {
+  background-color: antiquewhite;
+}
+
+h1 {
+	color: darkblue;
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+
+h2 {
+  color: darkslateblue;
+  text-align: center;
+}
+
+.login {
+	color: black;
+}
+
+.link {
+  border-radius: 6px 6px 10px 10px;
+  color: blueviolet;
+	display: block;
+  font-size: 18px;
+	padding: 5px;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.img {
+	max-height: 50%;
+	max-width: 50%;
+}
+
+.buttons {
+  color: aqua;
+	display: flex;
+  justify-content: center;
+}
+
+.button:hover{
+	background-color:	#dcdcdc;
+	border-radius: 30%;
+}
+
+.list {
+  padding: 0;
+}
+
+.item {
+  border: 3px solid #6495ed;
+	border-radius: 10px;
+	margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+	text-align: center;
+}
+
+@media(max-width: 549px){
+  h1,
+  .button {
+		font-size: 20px;
+		margin: 0;
+	}
+
+  h2 {
+    font-size: 16px;
+  }
+
+	.repos__language,
+	.repos__update{
+		font-size: 12px;
+	}
+
+	.login,
+	.link{
+		font-size: 15px;
+	}
+}
+
+@media(max-width: 360px) {
+	h1,
+  .button {
+		font-size: 16px;
+		margin: 0;
+	}
+
+  h2 {
+    font-size: 12px;
+  }
+
+	.repos__language,
+	.repos__update{
+		font-size: 9px;
+	}
+
+	.login,
+	.link{
+		font-size: 12px;
+		padding: 5px;
+	}
+}
